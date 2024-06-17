@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    background-color: #081b31;
+    color: #fff;
+    height: 6rem;
+    line-height: 6rem;
+    text-decoration: underline;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 4rem;
+
+}
+
+.choice {
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    opacity: 0.5;
+    background-color: #081b31;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.scord-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    margin-top: 20px;
+    font-size: 2rem;
+
+}
+
+#user-score,
+#comp-score {
+    font-size: 80px;
+}
+
+.msg-container {
+    margin-top: 40px;
+}
+
+#msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 30px;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+
+}
